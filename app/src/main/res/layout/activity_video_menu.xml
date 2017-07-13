@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.englishquiz.videoMenu">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/video"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:id="@+id/firstmenu"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/activitiesVideo"
+            android:padding="10dp"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:layout_above="@+id/times"
+            android:background="@drawable/activities" />
+
+        <Button
+            android:padding="10dp"
+            android:id="@+id/peoplearoundusVideo"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:background="@drawable/people" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_alignLeft="@id/firstmenu"
+        android:orientation="vertical">
+
+        <Button
+            android:padding="10dp"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:id="@+id/numbersVideo"
+            android:background="@drawable/numbertombol" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/dayandmonthscategoryVideo"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:background="@drawable/daymonths" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

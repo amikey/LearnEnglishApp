@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.englishquiz.ListeningCategory">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listening"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/animal"
+            android:layout_width="122dp"
+            android:padding="10dp"
+            android:layout_height="88dp"
+            android:background="@drawable/animals"/>
+
+        <Button
+            android:id="@+id/activities"
+            android:padding="10dp"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:layout_above="@+id/times"
+            android:background="@drawable/activities" />
+
+        <Button
+            android:padding="10dp"
+            android:id="@+id/peoplearoundus"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:background="@drawable/people" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+        <Button
+            android:padding="10dp"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:id="@+id/times"
+            android:background="@drawable/times"
+            android:layout_alignParentBottom="true" />
+        <Button
+            android:padding="10dp"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:id="@+id/numbers"
+            android:background="@drawable/numbertombol" />
+        <Button
+            android:padding="10dp"
+            android:id="@+id/dayandmonthscategory"
+            android:layout_width="122dp"
+            android:layout_height="88dp"
+            android:background="@drawable/daymonths" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

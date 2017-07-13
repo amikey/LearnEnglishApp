@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    style="@style/background"
+    tools:context="com.example.englishquiz.finalScore">
+
+    <TextView
+        android:id="@+id/yourscore"
+        style="@style/question_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Your Score"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yourscore"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/thankyou"
+        style="@style/question_size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:gravity="center_horizontal"
+        android:text="Thank You for Playing"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exit"
+        android:layout_gravity="center"
+        android:id="@+id/exitquiz"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeopleAroundUsActivity">
+
+
+        <ListView
+            android:id="@+id/simpleListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:divider="#000"
+            android:dividerHeight="2dp" />
+
+        <Button
+            android:id="@+id/peoplearoundusdictionary"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/dictionary"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
